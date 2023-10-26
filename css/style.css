@@ -1,0 +1,125 @@
+body{
+    background-color: #021823;
+}
+
+.parent img{
+    width: 300px;
+    height: 300px;
+}
+
+span{
+    font-size: 70px;
+}
+
+.parent{
+    margin-top: 250px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    /* overflow: hidden;     */
+}
+
+.parent img{
+    margin-left: 1px;
+    margin-right: 1px;
+    overflow: hidden;
+    margin-top: -250px;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: img;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+.parent span{
+     margin-top: -200px;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: najot-talim;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+@keyframes najot-talim{
+    0%{
+        margin-top: -200px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+@keyframes img{
+    0%{
+        margin-top: -250px;
+    }
+    50%{
+        margin-top: 100px;
+        /* width: 400px;
+        height: 400px; */
+        scale: 1.5;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    100%{
+        margin-top: 0px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.span-1{
+    animation-delay: 2.1s;
+}
+
+.span-2{
+    animation-delay: 2.2s;
+}
+
+.span-3{
+    animation-delay: 2.3s;
+}
+
+.span-4{
+    animation-delay: 2.4s;
+}
+
+.span-5{
+    animation-delay: 2.5s;
+}
+
+.span-6{
+    animation-delay: 2.5s;
+}
+
+.span-7{
+    animation-delay: 2.4s;
+}
+
+.span-8{
+    animation-delay: 2.3s;
+}
+
+.span-9{
+    animation-delay: 2.2s;
+}
+
+.span-10{
+    animation-delay: 2.1s;
+}
